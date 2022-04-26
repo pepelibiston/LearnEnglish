@@ -1,0 +1,9 @@
+hornear un pastel;baking a cake;
+batir huevos;beating eggs;
+hervir agua;boiling water;
+quemar tostadas;burnt toast;
+trinchar carne;carving meat;
+cortar el pimiento;cutting a pepper;
+freir pescado;frying fish;
+asar;grilling;
+pelar una manzana;peeling an apple;

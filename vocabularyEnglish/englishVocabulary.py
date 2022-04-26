@@ -4,8 +4,12 @@ import sys
 SECUENCIAL = 1
 RANDOM = 2
 
-vocabulariosTipo = ["alimentos", "ropa"]
-ficherosVocabulario = ["alimentos.txt"]
+ALIMENTOS = 1
+ROPA = 2
+FOODACTION=3
+
+vocabulariosTipo = ["alimentos", "ropa", "Acciones comida"]
+ficherosVocabulario = ["alimentos.txt", "ropa.txt", "foodAction.txt"]
 
 class Vocabulary:
     def __init__(self, vocabulario):
@@ -53,6 +57,12 @@ for i in vocabulariosTipo:
     contador += 1
 
 tema = input()
-aptis = Vocabulary("alimentos.txt")
+if int(tema) == int(ALIMENTOS):
+    aptis = Vocabulary("alimentos.txt")
+elif int(tema) == int(ROPA):
+    aptis = Vocabulary("ropa.txt")
+else:
+    aptis = Vocabulary("foodAction.txt")
+
 aptis.cargarVocabulario()
 aptis.run()
