@@ -9,8 +9,8 @@ ROPA = 2
 FOODACTION= 3
 SINONIMOS= 4
 #Gestiona este conflicto men
-vocabulariosTipo = ["Alimentos", "Ropa", "Acciones comida", "Sinonimos"]
-ficherosVocabulario = ["alimentos.txt", "ropa.txt", "foodAction.txt","sinonimos.txt"]
+vocabulariosTipo = ["Alimentos", "Ropa", "Acciones comida", "Sinonimos","Prueba"]
+ficherosVocabulario = ["alimentos.txt", "ropa.txt", "foodAction.txt","sinonimos.txt","Git"]
 
 class Vocabulary:
     def __init__(self, vocabulario):
